@@ -1,38 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0em;
+}
+
 .login {
     height: auto;
     width: auto;
     background-color: blueviolet;
-    padding: 60px;
+    padding: 52px;
+}
+
+.create-account {
+    height: auto;
+    width: auto;
+    background-color: blueviolet;
+    padding: 44px;
 }
 
 .login_img {
     /* border-radius: 120px; */
-    padding-top: 50px;
+    margin-top: 120px;
+
+}
+
+.createacc_img {
+    /* border-radius: 120px; */
+    margin-top: 120px;
 
 }
 
 .member {
     background-color: white;
     border-radius: 15px;
-    padding: 20px;
-    padding-left: 250px;
+    padding: 25px;
+
 }
 
 .member-createacc {
     background-color: white;
     border-radius: 15px;
     padding: 30px;
-    padding-left: 250px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    /* padding-bottom: 12px; */
+    /* padding-top: 15px; */
 }
 
 .child-member {
     padding: 50px;
 }
 
+.child-member-img {
+
+    padding: 50px;
+}
+
+.child-member h2 {
+    font-family: 'Anton', sans-serif;
+}
+
 .child-member-createacc {
     padding: 10px;
+    font-family: 'Cairo', sans-serif;
 }
 
 
@@ -41,8 +68,9 @@
     height: 2.7em;
     width: 25em;
     text-align: center;
-    background-color: green;
-    /* margin-left: 40px; */
+    background-color: blueviolet;
+    color: white !important;
+    margin-left: 48px;
 }
 
 .btn-success1-createacc {
@@ -57,10 +85,12 @@
 
 .button1 {
     padding-top: 20px;
+    display: inline;
 }
 
 .createacc {
     padding-top: 90px;
+    text-align: center;
 }
 
 .input-icons i {
@@ -85,11 +115,30 @@
     height: 50px;
     padding-left: 40px;
     text-align: left;
-    border-radius: 8px solid;
+    border-radius: inherit;
 }
 
 .fclass {
     display: inline;
     margin: 0em;
     padding: 0em;
+}
+
+.tablemain-body {
+    background-color: rgb(75, 70, 70);
+    margin: 25px;
+}
+
+.table-container {
+    /* background-color: white; */
+}
+
+.table-body {
+    /* color: white !important; */
+    background-color: ghostwhite;
+}
+
+.custmized-thead {
+    background-color: tomato;
+    /* color: white !important; */
 }
