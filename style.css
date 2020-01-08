@@ -124,6 +124,7 @@
     padding: 0em;
 }
 
+/* -----------------------------table style------------------------- */
 .tablemain-body {
     background-color: rgb(75, 70, 70);
     margin: 25px;
@@ -142,3 +143,5 @@
     background-color: tomato;
     /* color: white !important; */
 }
+
+/* -------------------------table style end---------------------------------- */
